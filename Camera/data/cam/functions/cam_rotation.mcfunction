@@ -10,5 +10,5 @@
     execute positioned ~ ~-0.5 ~ rotated ~-45 ~ unless block ^ ^ ^1 air run scoreboard players set @s Cam_Rotation 1
 
 ## 通常
-    tp @s[scores={Cam_Rotation=0}] ~ ~ ~ ~-1 ~
-    tp @s[scores={Cam_Rotation=1}] ~ ~ ~ ~1 ~
+    tp @s[scores={Cam_Rotation=0}] ~ ~ ~ ~-0.5 ~
+    tp @s[scores={Cam_Rotation=1}] ~ ~ ~ ~0.5 ~
