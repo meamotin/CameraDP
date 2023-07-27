@@ -1,10 +1,13 @@
 #> cam:load
+# @within function exe:load
 
-## Load
-
+#> Load
 
 ## Score
+  scoreboard objectives add Cam_Range dummy
+  scoreboard objectives add Cam_Rotation dummy
 
-# Cam
-    scoreboard objectives add Cam_R dummy
-    scoreboard objectives add Cam_Rotation dummy
+
+## Team
+  team add Prisoner
+  team add Jailer
