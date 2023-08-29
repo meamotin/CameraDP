@@ -23,4 +23,4 @@
 ## M - A = ..40 であれば検知成功
     scoreboard players operation .M0 Cam_Range -= .A0 Cam_Range
     scoreboard players operation .M1 Cam_Range -= .A1 Cam_Range
-    execute if score .M0 Cam_Range matches -40..40 if score .M1 Cam_Range matches -20..20 run function cam:detection
+    execute if score .M0 Cam_Range matches -40..40 if score .M1 Cam_Range matches -45..45 run function cam:detection
