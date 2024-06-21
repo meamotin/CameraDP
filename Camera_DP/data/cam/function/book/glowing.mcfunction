@@ -2,7 +2,6 @@
 # @within function exe:book
 
 #> Camera Glowin
-
 ## Effect
   effect give @e[tag=Cam] glowing infinite 0 true
 
